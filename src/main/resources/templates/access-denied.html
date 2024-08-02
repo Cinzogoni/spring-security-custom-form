@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/access-denied.css}" type="text/css">
+    <title>Access Denied</title>
+</head>
+<body>
+<div class="container">
+    <h2>Access Denied</h2>
+    <p>You do not have permission to access this page.</p>
+    <a th:href="@{/showMyLoginPage}">Go to Login Page</a>
+</div>
+</body>
+</html>
